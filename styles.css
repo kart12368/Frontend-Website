@@ -12,7 +12,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background-color: #fff;
+  background-color: #EDE7F68F;
 }
 
 /* Headings */
@@ -154,10 +154,11 @@ label {
   align-items: center;
   width: 100%;
   box-sizing: border-box;
+  
 }
 
 .navbar a{
-  color: green;
+  color: black;
 
 }
 
@@ -174,9 +175,9 @@ label {
   margin: 0 25px;
 }
 
-.navbar .nav-links ul li.active a{
-color: red;
-font-weight: 600;
+a.active{
+color: #4d0aa4;
+font-weight : 600;
 }
 
 .navbar .menu-hamburger{
