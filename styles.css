@@ -9,7 +9,6 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  font-size: 16px;
   line-height: 1.5;
   color: #333;
   background-color: #EDE7F68F;
@@ -282,6 +281,7 @@ padding: 0;
   text-align: left  ;
   padding-top: 10px;
   padding-bottom: 10px;
+
 }
 .firstblock,.secondblock,.thirdblock, .fourthblock{
   background: linear-gradient(180deg, #ad77ff, #4d0aa4);
@@ -364,4 +364,41 @@ margin-bottom: 20px;
   height: 50px;  
   margin-bottom: 20px;
 
+}
+.student{
+  margin-left: 50px;
+}
+
+.aboutus{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1.contacthead{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+letter-spacing: 4px;
+margin-bottom: 25px;
+color: black;}
+
+h2.contacthead{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-bottom: 25px;
+  max-width: 450px;
+  color:#4d0aa4;
+}
+
+h3.contacthead{
+  font-size: 16px;
+  color:#505050;
+  line-height: 28px;
+  max-width: 450px;
+}
+
+.secondabout{
+  margin-right: 50px;
+  margin-top: 80px;
 }
