@@ -267,7 +267,7 @@ padding: 0;
 }grad
 
 .title{
-  font-size: 2000px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 400px;
   letter-spacing: 10px;
@@ -275,10 +275,13 @@ padding: 0;
 }
 
 .subtitle{
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 45px;
-  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-left: 0;
+  text-align: left  ;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .firstblock,.secondblock,.thirdblock, .fourthblock{
   background: linear-gradient(180deg, #ad77ff, #4d0aa4);
@@ -286,9 +289,7 @@ padding: 0;
   border-radius: 15px;
   padding: 2% 3%;
   max-width: 270px;
-  margin-top: 40px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 0 15px;
   color: #fff;
   flex: 1;
 }
@@ -298,6 +299,8 @@ padding: 0;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 65px;
+  margin-bottom: 100px;
 
 }
 /**Footer**/
@@ -336,3 +339,29 @@ p {
   margin: 0;
 } */
     
+.graduation{
+width: 50px;
+height: 50px;
+margin-bottom: 20px;
+}
+
+.sprout{
+  width: 50px;
+height: 50px;
+margin-bottom: 20px;
+
+}
+
+.lighting{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+
+}
+
+.trash{
+  width: 50px;
+  height: 50px;  
+  margin-bottom: 20px;
+
+}
