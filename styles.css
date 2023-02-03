@@ -12,6 +12,10 @@ body {
   line-height: 1.5;
   color: #333;
   background-color: #EDE7F68F;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
 }
 
 /* Headings */
@@ -401,4 +405,26 @@ h3.contacthead{
 .secondabout{
   margin-right: 50px;
   margin-top: 80px;
+}
+
+footer{
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  margin: 40px 0;
+  padding: 30px 50px;
+  background-color:#EDE7F68F ;
+  margin-top: auto;
+
+}
+
+h2.footheading{
+  max-width: 250px;
+  font-size: 16px;
+  font-weight: 300;
+text-align: left;
+}
+
+h1.footheading1{
+  font-size: 25px;
 }
