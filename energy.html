@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">  
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <title>Responsive Navigation Bar</title>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+    <nav class="navbar">
+      <a href="#" class="logo">COnsulting</a>
+      <div class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="agritech.html">AgriTech</a></li>
+        <li><a class="active" href="energy.html">Energy</a></li>
+        <li><a href="waste.html">Waste-Management</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+    <img src="images/ham.png" alt="menu hamburger" class="menu-hamburger">
+    </nav>
+
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+  
+    menuHamburger.addEventListener("click",() =>{
+      navLinks.classList.toggle("mobile-menu")
+    })
+  
+  </script>
+  
+</html>

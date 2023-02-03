@@ -154,7 +154,6 @@ label {
   align-items: center;
   width: 100%;
   box-sizing: border-box;
-  
 }
 
 .navbar a{
@@ -177,7 +176,7 @@ label {
 
 a.active{
 color: #4d0aa4;
-font-weight : 600;
+font-weight: 600;
 }
 
 .navbar .menu-hamburger{
