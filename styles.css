@@ -376,6 +376,8 @@ margin-bottom: 20px;
 .aboutus{
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 40px;
 }
 
 h1.contacthead{
@@ -442,4 +444,13 @@ margin-bottom: 20px;
 .footmenu  ul li a{
   margin: 10px 0;
 
+}
+
+#Form
+
+.mainform{
+  text-align: center;
+  display: flex;
+  top:12px;
+  right: 25px;
 }

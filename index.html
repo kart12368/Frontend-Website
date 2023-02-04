@@ -28,7 +28,7 @@
         <li><a href="contact.html">Contact us</a></li>
       </ul>
     </div>
-    <button>Login</button>
+    <button id="login-btn" class="btn btn-primary btn-lg">Login</button>
     <img src="images/ham.png" alt="menu hamburger" class="menu-hamburger">
     </nav>
 
@@ -112,6 +112,9 @@
   menuHamburger.addEventListener("click",() =>{
     navLinks.classList.toggle("mobile-menu")
   })
+  document.getElementById("login-btn").addEventListener("click", function() {
+  window.location.href = "login.html";
+});
 
 </script>
 </html>

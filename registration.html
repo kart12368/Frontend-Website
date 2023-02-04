@@ -19,33 +19,51 @@
       <a href="index.html" class="logo">Consulting</a>
       <div class="nav-links">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
         <li><a href="aboutus.html">About Us</a></li>
-        <li><a class="active" href="education.html">Education</a></li>
+        <li><a href="education.html">Education</a></li>
         <li><a href="agritech.html">AgriTech</a></li>
         <li><a href="energy.html">Energy</a></li>
         <li><a href="waste.html">Waste-Management</a></li>
         <li><a href="contact.html">Contact us</a></li>
-
       </ul>
     </div>
-    <a href=""><button>Login</button></a>
+    <button>Login</button>
     <img src="images/ham.png" alt="menu hamburger" class="menu-hamburger">
     </nav>
-    <section>
+    <section class="landingmainsection" >
+<div style="flex: 1; margin: 55px;">
+    <h1 style="margin: 15px;" class="footheading">Counseling</h1>
+    <h2 style="margin: 15px;">Create your account</h2>
+    <hr>
+        <form class="mainform" >
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <button style="margin: 15px;" type="submit" class="btn btn-primary btn-lg">Create Account</button>
+            <h3 style="margin: 15px;">Already Have an Account? <a href="login.html">Log in</a></h3>
+          </form>
+        </div>
+            <div class="headingimage" style="flex: 1;"><img class="mainimage" src="images/save.webp" alt="" srcset=""></div>
+    
+    </section>
+    
       
-  </section>
-  
-<footer>
-
+    <footer>
         <div class="footdescription">
           <h1 class="footheading">Consulting</h1>
           <h2 class="footheading">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat voluptate, error necessitatibus commodi est, sequi optio impedit quod asperiores quas eaque odio, dolores eos? Modi rem consectetur accusantium officia adipisci.</h2>
         </div>
         <div class="footmenu">
           <h1 class="footheading1">Useful Links</h1>
+          <h6 class="footheading"></h6>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
             <li><a href="aboutus.html">About Us</a></li>
             <li><a href="education.html">Education</a></li>
             <li><a href="agritech.html">AgriTech</a></li>
@@ -57,6 +75,7 @@
         </div>
         <div class="footcontact">
           <h1 class="footheading1">Contact</h1>
+          <h6 class="footheading"></h6>
           <h2 class="footheading">Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, TX 76051
           </h2>
           <h2 class="footheading">info@yourdomain.com
@@ -65,12 +84,11 @@
         </h2>
         </div>
         <div class="Signup">  <h1 class="footheading1">Sign Up</h1>
-          <h2 class="footheading">Keep me up to date with content, updates, and offers from Phlox
+          <h6 class="footheading"></h6>
+          <h2 class="footheading">Keep me up to date with content, updates, and offers.
           </h2>
           <p><input type="email" name="EMAIL" placeholder="Enter Your Email Address" required=""></p>
-          <p><input type="submit" value="SUBMIT"></p>
+          <p style="margin: 10px;"><input type="submit" value="SUBMIT"></p>
         </div>  
         </footer>
-
-</body>
-</html>
+        
