@@ -454,3 +454,39 @@ margin-bottom: 20px;
   top:12px;
   right: 25px;
 }
+
+
+  .bookappointment{
+    padding-top: 10%;
+
+  }
+  .bookhead{
+    color: #4d0aa4;
+    text-align: center;
+    padding-bottom: 4%;
+  }
+  .booking{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .name1{
+    padding-left: 5%;
+  }
+  .name2{
+    padding-left: 6%;
+  }
+  .bookimage2,.bookimage1,.bookimage3,.bookimage4{
+    padding-left: 3%;
+  }
+  .headingimage{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .headcolor{
+    color: #4d0aa4ba;
+  }
+  .social-option{
+    padding-left: 5%;
+    padding-top: 10%;
+  }
